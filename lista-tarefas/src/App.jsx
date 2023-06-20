@@ -1,7 +1,7 @@
 import React from 'react'
 import ToDo from './components/ToDo'
 
-function App() {
+export default function App() {
   const tasks = ['Reunião Condominio Jardim Zona Sul', 'Vistoria Condominio Nonoai', 'Vistoria Condominio Petropólis','Vistoria Canoas'];
   return (
     <div>
@@ -10,6 +10,6 @@ function App() {
     </div>
     
   )
-};
+}
 
-export default App
+ 

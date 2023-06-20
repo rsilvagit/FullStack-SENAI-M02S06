@@ -1,5 +1,5 @@
 import Task from "./Task";
-function ToDo ({ tasks }) {
+export default function ToDo ({ tasks }) {
     return (
       <div>
         <ul className="list-group mt-3">
@@ -10,4 +10,4 @@ function ToDo ({ tasks }) {
       </div>
     )
   }
-export default ToDo
+
