@@ -1,6 +1,4 @@
-import React from "react";
 import Task from "./Task";
-
 function ToDo ({ tasks }) {
     return (
       <div>
